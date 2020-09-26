@@ -1,0 +1,14 @@
+
+@import 'partial/mixin';
+@import 'partial/reset';
+@import 'partial/predefined';
+
+// Include Layouts
+@import 'layout/menu';
+@import 'layout/banner';
+@import 'layout/features';
+@import 'layout/awesomefeatures';
+@import 'layout/video';
+@import 'layout/screenshot';
+@import 'layout/testimonial';
+@import 'layout/footer';

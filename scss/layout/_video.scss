@@ -1,0 +1,87 @@
+
+.single-video{
+        position: relative;
+        background: url('../../img/video/Image.png');
+        width: 1170px;
+        height: 600px;
+}
+.content{
+        position: absolute;
+        text-align: center;
+        max-width: 497px;
+        top: 180px;
+        left: 330px;
+}
+
+.overlay-video{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(42, 58, 93,);
+    opacity: 0.95;
+}
+
+.play{
+        .fa{
+            position: absolute;
+            top: 170px;
+            left:235px;
+            color: $white;
+            z-index: 33;
+            font-size: 40px;
+            transform: translate(0px,0px);
+        }
+}
+
+// stars area
+
+      .awesome-rec1{
+        position:absolute;
+        top:0px;
+        left:-120px;
+    }
+      .awesome-rec2{
+        position:absolute;
+        top:320px;
+        left:-60px;
+    }
+    
+    .awesome-rec3{
+        position:absolute;
+        top:800px;
+        left:-400px;
+    }
+    
+    .awesome-rec4{
+        position:absolute;
+        top:240px;
+        left:-400px;
+    }
+    .awesome-rec5{
+        position:absolute;
+        top:290px;
+        left:1205px;
+    }
+    .awesome-rec6{
+        position:absolute;
+        top:130px;
+        left:1030px;
+    }
+    .awesome-rec7{
+        position:absolute;
+        top:50px;
+        left:500px;
+    }
+    .awesome-rec8{
+        position:absolute;
+        top:510px;
+        left:-315px;
+    }
+    .awesome-rec9{
+        position:absolute;
+        top:750px;
+        left:1320px;
+    }
+   

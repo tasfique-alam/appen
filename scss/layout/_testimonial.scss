@@ -1,0 +1,102 @@
+.test{
+    margin-top: 220px;
+    text-align: center;
+
+        h2{
+            font-size: 36px;
+            margin-bottom: 35px;
+        }
+        p{
+            font-family: $title-font;
+            font-size: 18px;
+            color: $text-color;
+            max-width: 400px;
+        }
+}
+
+.andrew{
+    transform: translate(80px, 0px);
+    margin-top: 100px;
+    width: 970px;
+    height: 360px;
+    background: #2A3759;
+    text-align: center;
+        .para{
+            transform: translate(70px, 0px);
+            font-family: $title-font;
+            color: $text-color;
+            font-size: 18px;
+            font-style: italic;
+            max-width: 800px;
+        }
+        h3{
+            transform: translate(0px, 20px);
+             font-size: 20px;
+        }
+}
+.small-andrew{
+        width: 125px;
+        height:125px;
+        background: #24304D;
+        -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        transform: translate(0px, -60px);
+     p{
+        font-family: $title-font;
+        color: $text-color;
+        font-size: 60px; 
+        transform: translate(0px, 20px);
+     }
+}
+
+.graphics{
+    transform: translate(0px, 30px);
+    font-family: $title-font;
+    color: $text-color;
+    font-size: 14px;
+}
+.owl-theme .owl-dots .active span {
+    background: #C405FB !important;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: #C405FB !important;
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+}
+
+// stats area
+.test-rec1{
+    position:absolute;
+    top:430px;
+    left:-60px;
+}
+  .test-rec2{
+    position:absolute;
+    top:300px;
+    left:840px;
+}
+
+.test-rec3{
+    position:absolute;
+    top:600px;
+    left:-290px;
+}
+
+.test-rec4{
+    position:absolute;
+    top:370px;
+    left:1120px;
+}
+.test-rec5{
+    position:absolute;
+    top:520px;
+    left:1070px;
+}
+.test-rec6{
+    position:absolute;
+    top:830px;
+    left:1460px;
+}

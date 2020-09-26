@@ -1,0 +1,24 @@
+.navbar-brand{
+        margin-right: 400px;
+        margin-left: 20px;
+        font-family: $title-font;
+        font-size: 30px;
+        color: $white;
+}
+
+.navbar-brand:hover{
+    color: $text-color !important;
+    transition-duration: 0.9s;
+}
+
+.nav-item a{
+    font-family: $title-font;
+    font-size: 16px;
+    color: $white !important;
+    margin-left: 30px;
+}
+
+.nav-item a:hover{
+    color:$text-color !important;
+    transition-duration: 0.9s;
+}

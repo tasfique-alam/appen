@@ -1,0 +1,105 @@
+#features{
+    position: relative;
+}
+
+.features_box{
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    padding-right: 22px;
+    background: $title-color;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
+    h3{
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+    
+    p{
+        color: $text-color;
+        font-family: $title-font;
+        font-size: 16px;
+        max-width:320px;
+        margin-left: 15px;
+        padding-bottom: 56px;
+        
+    
+     &:hover{
+        color:$white !important;
+        -webkit-transition-duration: 0.9s;
+        -moz-transition-duration: 0.9s;
+        -moz-transition-duration: 0.9s;
+        transition-duration: 0.9s;
+        }
+    }
+    &:hover{
+    box-shadow: 0 2px 20px black;
+    background-color: #AE44CE;
+    color: black;
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    }
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+
+.small_box{
+    text-align: center;
+    transform: translate(10px, -50px);
+        .fa{
+            color:#AE44CE;
+            padding: 35px 50px;
+            background: #273455;
+            &:hover{
+                box-shadow: 0 2px 20px black;
+                -webkit-transition-duration: 0.9s;
+                -moz-transition-duration: 0.9s;
+                -moz-transition-duration: 0.9s;
+                transition-duration: 0.9s;
+            }
+        }
+}
+
+// stars area
+
+.features-rec1{
+    position:absolute;
+    top:0px;
+    left:1520px;
+}
+
+.features-rec2{
+    position:absolute;
+    top:150px;
+    left:362px;
+}
+
+.features-rec3{
+    position:absolute;
+    top:490px;
+    left:1700px;
+}
+
+.features-rec4{
+    position:absolute;
+    top:410px;
+    left:230px;
+}
+.features-rec5{
+    position:absolute;
+    top:500px;
+    left:980px;
+}
+.features-rec6{
+    position:absolute;
+    top:240px;
+    left:130px;
+}

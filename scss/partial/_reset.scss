@@ -1,0 +1,118 @@
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+
+@import 'variables';
+@import 'mixin';
+
+html,body {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    color: $text-color;
+    font-family: $text-font;
+    font-size: 16px;
+    font-weight: 400;
+    background: $primary-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $white;
+    font-weight: 500;
+    font-family: $title-font;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ccc;
+    font-weight: 300;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ccc;
+   opacity:  1;
+   font-weight: 300;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ccc;
+   opacity:  1;
+   font-weight: 300;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ccc;
+   font-weight: 300;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #ccc;
+   font-weight: 300;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+select {
+    display: block;
+}
+figure {
+    margin: 0;
+}
+
+a {
+	@include transition(all .3s ease 0s);
+}
+
+iframe {
+    border: 0;
+}
+
+// a, a:focus, a:hover {
+//     text-decoration: none;
+//     outline: 0;
+//     color: $primary-color;
+// }
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.card-panel {
+    margin: 0;
+    padding: 60px;
+}
+/**
+ *  Typography
+ *
+ **/
+
+h1 { font-size: 36px;}
+h2 { font-size: 30px;}
+h3 { font-size: 24px;}
+h4 { font-size: 18px;}
+h5 { font-size: 16px;}
+h6 { font-size: 14px;}
+
+td, th {
+    border-radius: 0px;
+}
+
+.container {
+    &.box-1170 {
+        max-width: 1170px;
+    }
+}
+.section-gap{
+    margin-top: 150px;
+}
+
+#owl-demo1 {
+    .owl-dots {
+        display: block;
+    }
+}

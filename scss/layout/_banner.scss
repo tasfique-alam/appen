@@ -1,0 +1,107 @@
+.textoverlay{
+    position: relative;
+    h1 {
+        font-size: 45px;
+        margin-bottom: 45px;
+    
+    }
+    p {
+        color: $text-color;
+        max-width: 600px;
+        margin-bottom: 75px;
+        font-size: 20px;
+        font-family: $title-font;
+    }
+}
+.phonex {
+    animation: move 3s ease;
+    z-index: 100;
+}
+@keyframes move {
+    from {top: -400px;}
+    to {top: 0px;}
+}
+
+
+// stars area
+.stars{
+    
+}
+.rec4{
+    position:absolute;
+    top:30px;
+    left:310px;
+}
+
+.rec{
+    position:absolute;
+    top:30px;
+    left:410px;
+}
+
+.rec1{
+    position:absolute;
+    top:-340px;
+    left:150px;
+}
+
+.rec2{
+    position:absolute;
+    top: 290px;
+    left:300px;
+}
+.rec3{
+    position:absolute;
+    top:200px;
+    left:1170px;
+}
+.rec5{
+    position:absolute;
+    top:50px;
+    left:880px;
+}
+.rec6{
+    position:absolute;
+    top:505px;
+    left:40px;
+}
+.rec7{
+    position:absolute;
+    top:600px;
+    left:990px;
+}
+.rec8{
+    position:absolute;
+    top:800px;
+    left:1790px;
+}
+.rec9{
+    position:absolute;
+    top:240px;
+    left:1570px;
+}
+.rec10{
+    position:absolute;
+    top:535px;
+    left:785px;
+}
+.rec11{
+    position:absolute;
+    top:-10px;
+    left:1610px;
+}
+.rec12{
+    position:absolute;
+    top:430px;
+    left:880px;
+}
+.rec13{
+    position:absolute;
+    top:500px;
+    left:830px;
+}
+.rec14{
+    position:absolute;
+    top:420px;
+    left:1620px;
+}
